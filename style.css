@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', sans-serif;
+  }
+  
+  body {
+    background: linear-gradient(to bottom, #a8dadc, #f1faee);
+    color: #1d3557;
+    line-height: 1.6;
+  }
+  
+  header {
+    text-align: center;
+    padding: 2rem;
+    background-color: #457b9d;
+    color: white;
+  }
+  
+  header h1 {
+    font-size: 3rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  header p {
+    font-size: 1.2rem;
+  }
+  
+  section {
+    min-height: 50vh;
+    max-width: 700px;
+    margin: 2rem auto;
+    padding: 1.5rem;
+    background-color: rgba(255, 255, 255, 0.95);
+    border-radius: 12px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    section {
+        min-height: 50vh;
+        max-width: 600px;
+        margin: 2rem auto;
+        padding: 1.5rem;
+        background-color: rgba(255, 255, 255, 0.95);
+        border-radius: 12px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        text-align: center;
+      
+        /* Animação para o hover */
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+      }
+      
+      section:hover {
+        transform: scale(1.05); /* Amplia 5% */
+        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2); /* Sombra mais forte */
+        cursor: pointer; /* Indicador visual */
+      }
+      
+  }
+  
+  section img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 1rem;
+  }
+
+  h2 {
+    margin-bottom: 0.5rem;
+    color: #2a9d8f;
+  }
+  
+  p {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+    text-align: justify;
+  }
+  
+  footer {
+    background-color: #457b9d;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+  }
+  
